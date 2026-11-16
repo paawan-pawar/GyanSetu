@@ -1,0 +1,32 @@
+{
+  "resources": [
+    {"id": "res1", "category": "books", "icon": "auto_stories", "available": 24, "location": {"en": "Gram Panchayat Library", "hi": "ग्राम पंचायत पुस्तकालय"},
+     "name": {"en": "NCERT Textbooks (Class 1–12)", "hi": "NCERT पाठ्यपुस्तकें (कक्षा 1–12)"},
+     "desc": {"en": "Free borrowing for 30 days. Digital copies also on ePathshala.", "hi": "30 दिन के लिए मुफ़्त उधार। डिजिटल प्रतियाँ ई-पाठशाला पर भी।"}},
+    {"id": "res2", "category": "devices", "icon": "tablet_android", "available": 6, "location": {"en": "Block Resource Centre", "hi": "ब्लॉक संसाधन केंद्र"},
+     "name": {"en": "Learning Tablets (pre-loaded)", "hi": "लर्निंग टैबलेट (पहले से लोड सामग्री)"},
+     "desc": {"en": "Tablets with offline DIKSHA content, lent to students for 2 weeks.", "hi": "ऑफ़लाइन DIKSHA सामग्री वाले टैबलेट, विद्यार्थियों को 2 सप्ताह के लिए।"}},
+    {"id": "res3", "category": "kits", "icon": "biotech", "available": 10, "location": {"en": "Govt. Inter College", "hi": "राजकीय इंटर कॉलेज"},
+     "name": {"en": "Science Experiment Kits", "hi": "विज्ञान प्रयोग किट"},
+     "desc": {"en": "Low-cost kits for magnets, circuits, lenses and plant biology experiments.", "hi": "चुंबक, सर्किट, लेंस और पौधा जीवविज्ञान प्रयोगों हेतु कम लागत की किट।"}},
+    {"id": "res4", "category": "books", "icon": "menu_book", "available": 40, "location": {"en": "Anganwadi Centre", "hi": "आंगनवाड़ी केंद्र"},
+     "name": {"en": "Picture Story Books (Hindi)", "hi": "चित्र कहानी पुस्तकें (हिंदी)"},
+     "desc": {"en": "Pratham & NBT storybooks for early readers.", "hi": "प्रारंभिक पाठकों के लिए प्रथम और NBT की कहानी पुस्तकें।"}},
+    {"id": "res5", "category": "devices", "icon": "solar_power", "available": 15, "location": {"en": "Gyan Setu Hub", "hi": "ज्ञान सेतु केंद्र"},
+     "name": {"en": "Solar Study Lamps", "hi": "सोलर अध्ययन लैंप"},
+     "desc": {"en": "Free lamps for students from households without electricity.", "hi": "बिना बिजली वाले घरों के विद्यार्थियों के लिए मुफ़्त लैंप।"}},
+    {"id": "res6", "category": "stationery", "icon": "edit", "available": 120, "location": {"en": "Gyan Setu Hub", "hi": "ज्ञान सेतु केंद्र"},
+     "name": {"en": "Stationery Kit", "hi": "स्टेशनरी किट"},
+     "desc": {"en": "Notebooks, pencils, geometry box and school bag for needy students.", "hi": "ज़रूरतमंद विद्यार्थियों के लिए कॉपियाँ, पेंसिल, ज्यामिति बॉक्स और स्कूल बैग।"}},
+    {"id": "res7", "category": "kits", "icon": "precision_manufacturing", "available": 2, "location": {"en": "Atal Tinkering Lab, PM SHRI School", "hi": "अटल टिंकरिंग लैब, पीएम श्री विद्यालय"},
+     "name": {"en": "Robotics & Electronics Lab Slot", "hi": "रोबोटिक्स और इलेक्ट्रॉनिक्स लैब स्लॉट"},
+     "desc": {"en": "Book a 2-hour slot to use 3D printers, Arduino kits and tools.", "hi": "3D प्रिंटर, Arduino किट और उपकरणों के उपयोग हेतु 2 घंटे का स्लॉट बुक करें।"}}
+  ],
+  "eLibrary": [
+    {"id": "e1", "url": "https://diksha.gov.in", "name": {"en": "DIKSHA", "hi": "दीक्षा"}, "desc": {"en": "National platform for school education – textbooks, videos, quizzes.", "hi": "स्कूली शिक्षा का राष्ट्रीय मंच – पाठ्यपुस्तकें, वीडियो, क्विज़।"}},
+    {"id": "e2", "url": "https://swayam.gov.in", "name": {"en": "SWAYAM", "hi": "स्वयं"}, "desc": {"en": "Free online courses from IITs, IGNOU & universities with certificates.", "hi": "IIT, IGNOU और विश्वविद्यालयों के प्रमाणपत्र सहित मुफ़्त ऑनलाइन पाठ्यक्रम।"}},
+    {"id": "e3", "url": "https://epathshala.nic.in", "name": {"en": "ePathshala", "hi": "ई-पाठशाला"}, "desc": {"en": "NCERT e-books, audio and video in Hindi, English & Urdu.", "hi": "हिंदी, अंग्रेज़ी और उर्दू में NCERT ई-पुस्तकें, ऑडियो और वीडियो।"}},
+    {"id": "e4", "url": "https://ndl.iitkgp.ac.in", "name": {"en": "National Digital Library", "hi": "राष्ट्रीय डिजिटल पुस्तकालय"}, "desc": {"en": "Millions of books, papers and learning resources free for all.", "hi": "सभी के लिए लाखों पुस्तकें, शोध पत्र और शिक्षण संसाधन मुफ़्त।"}},
+    {"id": "e5", "url": "https://nptel.ac.in", "name": {"en": "NPTEL", "hi": "एनपीटेल"}, "desc": {"en": "Recorded video lectures from IIT professors on engineering & science.", "hi": "इंजीनियरिंग और विज्ञान पर IIT प्रोफ़ेसरों के रिकॉर्डेड वीडियो व्याख्यान।"}}
+  ]
+}

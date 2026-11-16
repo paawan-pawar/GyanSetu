@@ -1,0 +1,332 @@
+{
+  "categories": [
+    {"id": "literacy", "icon": "menu_book", "color": "0xFFEF6C00", "name": {"en": "Literacy", "hi": "साक्षरता"}},
+    {"id": "maths", "icon": "calculate", "color": "0xFF1E88E5", "name": {"en": "Mathematics", "hi": "गणित"}},
+    {"id": "science", "icon": "science", "color": "0xFF43A047", "name": {"en": "Science", "hi": "विज्ञान"}},
+    {"id": "communication", "icon": "record_voice_over", "color": "0xFF8E24AA", "name": {"en": "Communication", "hi": "संवाद कौशल"}},
+    {"id": "digital", "icon": "smartphone", "color": "0xFF00897B", "name": {"en": "Digital Skills", "hi": "डिजिटल कौशल"}},
+    {"id": "vocational", "icon": "agriculture", "color": "0xFF6D4C41", "name": {"en": "Vocational", "hi": "व्यावसायिक"}},
+    {"id": "finance", "icon": "savings", "color": "0xFFC62828", "name": {"en": "Financial Literacy", "hi": "वित्तीय साक्षरता"}}
+  ],
+  "courses": [
+    {
+      "id": "c_lit_1",
+      "category": "literacy",
+      "level": "beginner",
+      "mentorId": "m1",
+      "rating": 4.8,
+      "learners": 12450,
+      "skill": "reading",
+      "title": {"en": "Learn to Read: Hindi Varnamala", "hi": "पढ़ना सीखें: हिंदी वर्णमाला"},
+      "description": {"en": "Start reading from scratch – vowels, consonants, matras and simple words for adult and child learners.", "hi": "शुरुआत से पढ़ना सीखें – स्वर, व्यंजन, मात्राएँ और सरल शब्द, बच्चों और वयस्कों दोनों के लिए।"},
+      "lessons": [
+        {"id": "l1", "duration": 12, "video": "https://www.youtube.com/results?search_query=hindi+varnamala+swar+for+beginners",
+         "title": {"en": "Vowels (Swar) – अ to अः", "hi": "स्वर – अ से अः तक"},
+         "notes": {"en": "Hindi has 11 main vowels: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ. Say each sound aloud three times and trace it with your finger.", "hi": "हिंदी में 11 मुख्य स्वर हैं: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ। हर ध्वनि को तीन बार ज़ोर से बोलें और उंगली से लिखने का अभ्यास करें।"}},
+        {"id": "l2", "duration": 15, "video": "https://www.youtube.com/results?search_query=hindi+vyanjan+ka+kha+ga+for+beginners",
+         "title": {"en": "Consonants (Vyanjan)", "hi": "व्यंजन – क से ज्ञ तक"},
+         "notes": {"en": "Consonants are grouped by where they are spoken: क-वर्ग (throat), च-वर्ग (palate), ट-वर्ग, त-वर्ग, प-वर्ग (lips).", "hi": "व्यंजनों को उच्चारण स्थान के अनुसार वर्गों में बाँटा गया है: क-वर्ग (कंठ), च-वर्ग (तालु), ट-वर्ग, त-वर्ग, प-वर्ग (होंठ)।"}},
+        {"id": "l3", "duration": 14, "video": "https://www.youtube.com/results?search_query=hindi+matra+gyan+barakhadi",
+         "title": {"en": "Matras & Barakhadi", "hi": "मात्राएँ और बारहखड़ी"},
+         "notes": {"en": "A matra joins a vowel sound to a consonant: क + ा = का, क + ि = कि. Practise the barakhadi daily.", "hi": "मात्रा व्यंजन के साथ स्वर की ध्वनि जोड़ती है: क + ा = का, क + ि = कि। रोज़ बारहखड़ी का अभ्यास करें।"}},
+        {"id": "l4", "duration": 10, "video": "https://www.youtube.com/results?search_query=hindi+do+akshar+teen+akshar+wale+shabd",
+         "title": {"en": "Reading Simple Words", "hi": "सरल शब्द पढ़ना"},
+         "notes": {"en": "Read two-letter words first (घर, जल, कम), then three-letter words (कमल, नमक, बतख).", "hi": "पहले दो अक्षर वाले शब्द पढ़ें (घर, जल, कम), फिर तीन अक्षर वाले (कमल, नमक, बतख)।"}}
+      ],
+      "quiz": [
+        {"q": {"en": "How many main vowels (swar) are there in Hindi?", "hi": "हिंदी में कितने मुख्य स्वर हैं?"}, "options": [{"en": "11", "hi": "11"}, {"en": "33", "hi": "33"}, {"en": "5", "hi": "5"}, {"en": "52", "hi": "52"}], "answer": 0},
+        {"q": {"en": "क + ा = ?", "hi": "क + ा = ?"}, "options": [{"en": "कि", "hi": "कि"}, {"en": "का", "hi": "का"}, {"en": "कु", "hi": "कु"}, {"en": "के", "hi": "के"}], "answer": 1},
+        {"q": {"en": "Which of these is a consonant?", "hi": "इनमें से व्यंजन कौन सा है?"}, "options": [{"en": "अ", "hi": "अ"}, {"en": "ई", "hi": "ई"}, {"en": "म", "hi": "म"}, {"en": "ओ", "hi": "ओ"}], "answer": 2}
+      ]
+    },
+    {
+      "id": "c_lit_2",
+      "category": "literacy",
+      "level": "beginner",
+      "mentorId": "m1",
+      "rating": 4.6,
+      "learners": 8320,
+      "skill": "reading",
+      "title": {"en": "English Alphabet & Phonics", "hi": "अंग्रेज़ी वर्णमाला और फ़ोनिक्स"},
+      "description": {"en": "Learn A–Z, letter sounds and how to read your first English words.", "hi": "A से Z, अक्षरों की ध्वनि और पहले अंग्रेज़ी शब्द पढ़ना सीखें।"},
+      "lessons": [
+        {"id": "l1", "duration": 10, "video": "https://www.youtube.com/results?search_query=english+alphabet+phonics+in+hindi",
+         "title": {"en": "Capital & Small Letters", "hi": "बड़े और छोटे अक्षर"},
+         "notes": {"en": "English has 26 letters. Each letter has a capital (A) and a small (a) form. Vowels: A, E, I, O, U.", "hi": "अंग्रेज़ी में 26 अक्षर हैं। हर अक्षर का बड़ा (A) और छोटा (a) रूप होता है। स्वर: A, E, I, O, U।"}},
+        {"id": "l2", "duration": 12, "video": "https://www.youtube.com/results?search_query=phonics+sounds+in+hindi",
+         "title": {"en": "Letter Sounds (Phonics)", "hi": "अक्षरों की ध्वनि (फ़ोनिक्स)"},
+         "notes": {"en": "Letters make sounds: a – /æ/ as in apple, b – /b/ as in ball. Blend sounds: c-a-t = cat.", "hi": "अक्षर ध्वनि बनाते हैं: a – /ऐ/ जैसे apple, b – /ब/ जैसे ball। ध्वनियाँ जोड़ें: c-a-t = cat।"}},
+        {"id": "l3", "duration": 11, "video": "https://www.youtube.com/results?search_query=three+letter+words+reading+in+hindi",
+         "title": {"en": "Three-Letter Words", "hi": "तीन अक्षर वाले शब्द"},
+         "notes": {"en": "Practise: cat, bat, pen, hen, sun, bus, cup. Point to each letter while reading.", "hi": "अभ्यास करें: cat, bat, pen, hen, sun, bus, cup। पढ़ते समय हर अक्षर पर उंगली रखें।"}}
+      ],
+      "quiz": [
+        {"q": {"en": "How many letters are in the English alphabet?", "hi": "अंग्रेज़ी वर्णमाला में कितने अक्षर हैं?"}, "options": [{"en": "24", "hi": "24"}, {"en": "26", "hi": "26"}, {"en": "52", "hi": "52"}, {"en": "36", "hi": "36"}], "answer": 1},
+        {"q": {"en": "Which one is a vowel?", "hi": "इनमें से स्वर कौन सा है?"}, "options": [{"en": "B", "hi": "B"}, {"en": "K", "hi": "K"}, {"en": "E", "hi": "E"}, {"en": "T", "hi": "T"}], "answer": 2},
+        {"q": {"en": "c-a-t spells…", "hi": "c-a-t से बनता है…"}, "options": [{"en": "cut", "hi": "cut"}, {"en": "cot", "hi": "cot"}, {"en": "cat", "hi": "cat"}, {"en": "act", "hi": "act"}], "answer": 2}
+      ]
+    },
+    {
+      "id": "c_math_1",
+      "category": "maths",
+      "level": "beginner",
+      "mentorId": "m2",
+      "rating": 4.7,
+      "learners": 15600,
+      "skill": "numeracy",
+      "title": {"en": "Everyday Maths: Numbers & Money", "hi": "रोज़मर्रा का गणित: संख्याएँ और पैसे"},
+      "description": {"en": "Counting, addition, subtraction and handling money at the market.", "hi": "गिनती, जोड़, घटाव और बाज़ार में पैसों का हिसाब।"},
+      "lessons": [
+        {"id": "l1", "duration": 10, "video": "https://www.youtube.com/results?search_query=place+value+ikai+dahai+hindi",
+         "title": {"en": "Place Value: Ones, Tens, Hundreds", "hi": "स्थानीय मान: इकाई, दहाई, सैकड़ा"},
+         "notes": {"en": "In 345: 5 is in ones, 4 is in tens (40), 3 is in hundreds (300).", "hi": "345 में: 5 इकाई में, 4 दहाई में (40), 3 सैकड़े में (300) है।"}},
+        {"id": "l2", "duration": 13, "video": "https://www.youtube.com/results?search_query=jod+ghatav+hasil+wala+hindi",
+         "title": {"en": "Addition & Subtraction with Carry", "hi": "हासिल वाला जोड़ और घटाव"},
+         "notes": {"en": "Add from the right (ones first). If a column is 10 or more, carry 1 to the next column.", "hi": "दाईं ओर से (इकाई से) जोड़ें। यदि किसी कॉलम का योग 10 या अधिक हो तो 1 हासिल अगले कॉलम में ले जाएँ।"}},
+        {"id": "l3", "duration": 12, "video": "https://www.youtube.com/results?search_query=paise+ka+hisab+rupaye+paise+maths+hindi",
+         "title": {"en": "Money Maths at the Market", "hi": "बाज़ार में पैसों का गणित"},
+         "notes": {"en": "If 1 kg rice costs ₹40, 3 kg costs 3 × 40 = ₹120. Paying ₹200 gives change of ₹80.", "hi": "अगर 1 किलो चावल ₹40 का है, तो 3 किलो = 3 × 40 = ₹120। ₹200 देने पर ₹80 वापस मिलेंगे।"}}
+      ],
+      "quiz": [
+        {"q": {"en": "In 582, what is the value of 8?", "hi": "582 में 8 का स्थानीय मान क्या है?"}, "options": [{"en": "8", "hi": "8"}, {"en": "80", "hi": "80"}, {"en": "800", "hi": "800"}, {"en": "58", "hi": "58"}], "answer": 1},
+        {"q": {"en": "47 + 38 = ?", "hi": "47 + 38 = ?"}, "options": [{"en": "75", "hi": "75"}, {"en": "85", "hi": "85"}, {"en": "95", "hi": "95"}, {"en": "84", "hi": "84"}], "answer": 1},
+        {"q": {"en": "3 kg sugar at ₹45/kg costs?", "hi": "₹45 प्रति किलो की दर से 3 किलो चीनी कितने की?"}, "options": [{"en": "₹135", "hi": "₹135"}, {"en": "₹145", "hi": "₹145"}, {"en": "₹90", "hi": "₹90"}, {"en": "₹125", "hi": "₹125"}], "answer": 0}
+      ]
+    },
+    {
+      "id": "c_math_2",
+      "category": "maths",
+      "level": "intermediate",
+      "mentorId": "m2",
+      "rating": 4.5,
+      "learners": 9100,
+      "skill": "numeracy",
+      "title": {"en": "Fractions, Percentages & Interest", "hi": "भिन्न, प्रतिशत और ब्याज"},
+      "description": {"en": "Understand fractions, percentages and simple interest used in loans and savings.", "hi": "भिन्न, प्रतिशत और ऋण व बचत में उपयोग होने वाला साधारण ब्याज समझें।"},
+      "lessons": [
+        {"id": "l1", "duration": 14, "video": "https://www.youtube.com/results?search_query=fractions+bhinn+class+6+hindi",
+         "title": {"en": "What is a Fraction?", "hi": "भिन्न क्या है?"},
+         "notes": {"en": "A fraction shows part of a whole. ¾ means 3 parts out of 4 equal parts.", "hi": "भिन्न पूरे का एक भाग दर्शाती है। ¾ का अर्थ है 4 बराबर भागों में से 3 भाग।"}},
+        {"id": "l2", "duration": 12, "video": "https://www.youtube.com/results?search_query=percentage+pratishat+hindi+basics",
+         "title": {"en": "Percentages", "hi": "प्रतिशत"},
+         "notes": {"en": "Percent means 'out of 100'. 25% of 200 = 25/100 × 200 = 50.", "hi": "प्रतिशत का अर्थ है 'सौ में से'। 200 का 25% = 25/100 × 200 = 50।"}},
+        {"id": "l3", "duration": 15, "video": "https://www.youtube.com/results?search_query=simple+interest+sadharan+byaj+hindi",
+         "title": {"en": "Simple Interest", "hi": "साधारण ब्याज"},
+         "notes": {"en": "SI = (P × R × T) / 100. ₹10,000 at 7% for 2 years = ₹1,400 interest.", "hi": "साधारण ब्याज = (मूलधन × दर × समय) / 100। ₹10,000 पर 7% की दर से 2 वर्ष का ब्याज = ₹1,400।"}}
+      ],
+      "quiz": [
+        {"q": {"en": "10% of 500 = ?", "hi": "500 का 10% = ?"}, "options": [{"en": "5", "hi": "5"}, {"en": "50", "hi": "50"}, {"en": "100", "hi": "100"}, {"en": "10", "hi": "10"}], "answer": 1},
+        {"q": {"en": "Which fraction is bigger?", "hi": "कौन सी भिन्न बड़ी है?"}, "options": [{"en": "1/4", "hi": "1/4"}, {"en": "1/2", "hi": "1/2"}, {"en": "1/8", "hi": "1/8"}, {"en": "1/10", "hi": "1/10"}], "answer": 1},
+        {"q": {"en": "SI on ₹1000 at 10% for 1 year?", "hi": "₹1000 पर 10% दर से 1 वर्ष का साधारण ब्याज?"}, "options": [{"en": "₹10", "hi": "₹10"}, {"en": "₹100", "hi": "₹100"}, {"en": "₹1100", "hi": "₹1100"}, {"en": "₹1", "hi": "₹1"}], "answer": 1}
+      ]
+    },
+    {
+      "id": "c_sci_1",
+      "category": "science",
+      "level": "beginner",
+      "mentorId": "m3",
+      "rating": 4.7,
+      "learners": 7800,
+      "skill": "knowledge",
+      "title": {"en": "Science Around Us: Health & Hygiene", "hi": "हमारे आसपास विज्ञान: स्वास्थ्य और स्वच्छता"},
+      "description": {"en": "Clean water, nutrition, germs and simple ways to stay healthy in the village.", "hi": "स्वच्छ पानी, पोषण, कीटाणु और गाँव में स्वस्थ रहने के आसान उपाय।"},
+      "lessons": [
+        {"id": "l1", "duration": 11, "video": "https://www.youtube.com/results?search_query=safe+drinking+water+hindi+class",
+         "title": {"en": "Safe Drinking Water", "hi": "सुरक्षित पेयजल"},
+         "notes": {"en": "Boil water for at least 1 minute, or use chlorine tablets/filters. Keep containers covered.", "hi": "पानी को कम से कम 1 मिनट उबालें या क्लोरीन गोली/फ़िल्टर का उपयोग करें। बर्तन ढक कर रखें।"}},
+        {"id": "l2", "duration": 13, "video": "https://www.youtube.com/results?search_query=balanced+diet+santulit+aahar+hindi",
+         "title": {"en": "Balanced Diet & Nutrition", "hi": "संतुलित आहार और पोषण"},
+         "notes": {"en": "A balanced plate has grains (energy), dal/milk/eggs (protein), and vegetables/fruits (vitamins).", "hi": "संतुलित थाली में अनाज (ऊर्जा), दाल/दूध/अंडे (प्रोटीन) और सब्ज़ियाँ/फल (विटामिन) होते हैं।"}},
+        {"id": "l3", "duration": 9, "video": "https://www.youtube.com/results?search_query=germs+and+handwashing+hindi",
+         "title": {"en": "Germs & Handwashing", "hi": "कीटाणु और हाथ धोना"},
+         "notes": {"en": "Wash hands with soap for 20 seconds before eating and after using the toilet.", "hi": "खाने से पहले और शौच के बाद साबुन से 20 सेकंड तक हाथ धोएँ।"}}
+      ],
+      "quiz": [
+        {"q": {"en": "How long should you wash hands with soap?", "hi": "साबुन से कितनी देर हाथ धोने चाहिए?"}, "options": [{"en": "2 seconds", "hi": "2 सेकंड"}, {"en": "20 seconds", "hi": "20 सेकंड"}, {"en": "5 minutes", "hi": "5 मिनट"}, {"en": "Not needed", "hi": "ज़रूरी नहीं"}], "answer": 1},
+        {"q": {"en": "Which food is rich in protein?", "hi": "किस भोजन में प्रोटीन भरपूर होता है?"}, "options": [{"en": "Dal", "hi": "दाल"}, {"en": "Sugar", "hi": "चीनी"}, {"en": "Oil", "hi": "तेल"}, {"en": "Salt", "hi": "नमक"}], "answer": 0},
+        {"q": {"en": "A simple way to make water safe is to…", "hi": "पानी को सुरक्षित बनाने का सरल तरीका है…"}, "options": [{"en": "Add sugar", "hi": "चीनी मिलाना"}, {"en": "Boil it", "hi": "उबालना"}, {"en": "Freeze it", "hi": "जमाना"}, {"en": "Keep it open", "hi": "खुला रखना"}], "answer": 1}
+      ]
+    },
+    {
+      "id": "c_sci_2",
+      "category": "science",
+      "level": "intermediate",
+      "mentorId": "m3",
+      "rating": 4.4,
+      "learners": 5400,
+      "skill": "knowledge",
+      "title": {"en": "Class 8 Science: Crop Production", "hi": "कक्षा 8 विज्ञान: फसल उत्पादन"},
+      "description": {"en": "NCERT-aligned lessons on soil, irrigation, manure and crop protection.", "hi": "NCERT आधारित पाठ – मिट्टी, सिंचाई, खाद और फसल सुरक्षा।"},
+      "lessons": [
+        {"id": "l1", "duration": 16, "video": "https://www.youtube.com/results?search_query=class+8+science+crop+production+hindi",
+         "title": {"en": "Kharif and Rabi Crops", "hi": "खरीफ़ और रबी फसलें"},
+         "notes": {"en": "Kharif crops (paddy, maize) are sown in the rainy season; Rabi crops (wheat, mustard) in winter.", "hi": "खरीफ़ फसलें (धान, मक्का) वर्षा ऋतु में और रबी फसलें (गेहूँ, सरसों) सर्दी में बोई जाती हैं।"}},
+        {"id": "l2", "duration": 14, "video": "https://www.youtube.com/results?search_query=manure+and+fertilizer+class+8+hindi",
+         "title": {"en": "Manure vs Fertilizer", "hi": "खाद बनाम उर्वरक"},
+         "notes": {"en": "Manure is organic and improves soil texture; fertilizers are chemicals that give specific nutrients (N, P, K).", "hi": "खाद जैविक होती है और मिट्टी की बनावट सुधारती है; उर्वरक रसायन हैं जो विशेष पोषक तत्व (N, P, K) देते हैं।"}},
+        {"id": "l3", "duration": 12, "video": "https://www.youtube.com/results?search_query=drip+irrigation+sprinkler+hindi",
+         "title": {"en": "Modern Irrigation", "hi": "आधुनिक सिंचाई"},
+         "notes": {"en": "Drip and sprinkler irrigation save up to 50% water compared to flood irrigation.", "hi": "ड्रिप और स्प्रिंकलर सिंचाई पारंपरिक सिंचाई की तुलना में 50% तक पानी बचाती है।"}}
+      ],
+      "quiz": [
+        {"q": {"en": "Wheat is a ___ crop.", "hi": "गेहूँ ___ फसल है।"}, "options": [{"en": "Kharif", "hi": "खरीफ़"}, {"en": "Rabi", "hi": "रबी"}, {"en": "Zaid", "hi": "ज़ायद"}, {"en": "None", "hi": "कोई नहीं"}], "answer": 1},
+        {"q": {"en": "Which irrigation saves the most water?", "hi": "कौन सी सिंचाई सबसे अधिक पानी बचाती है?"}, "options": [{"en": "Flood", "hi": "बाढ़ सिंचाई"}, {"en": "Drip", "hi": "ड्रिप"}, {"en": "Canal", "hi": "नहर"}, {"en": "Well", "hi": "कुआँ"}], "answer": 1},
+        {"q": {"en": "Manure is…", "hi": "खाद होती है…"}, "options": [{"en": "Organic", "hi": "जैविक"}, {"en": "A metal", "hi": "धातु"}, {"en": "Plastic", "hi": "प्लास्टिक"}, {"en": "Synthetic chemical", "hi": "कृत्रिम रसायन"}], "answer": 0}
+      ]
+    },
+    {
+      "id": "c_com_1",
+      "category": "communication",
+      "level": "beginner",
+      "mentorId": "m4",
+      "rating": 4.9,
+      "learners": 21300,
+      "skill": "communication",
+      "title": {"en": "Spoken English for Daily Life", "hi": "रोज़मर्रा के लिए बोलचाल की अंग्रेज़ी"},
+      "description": {"en": "Greetings, introductions and everyday conversations with confidence.", "hi": "अभिवादन, परिचय और रोज़ की बातचीत आत्मविश्वास के साथ।"},
+      "lessons": [
+        {"id": "l1", "duration": 10, "video": "https://www.youtube.com/results?search_query=spoken+english+greetings+in+hindi",
+         "title": {"en": "Greetings & Introductions", "hi": "अभिवादन और परिचय"},
+         "notes": {"en": "Good morning! My name is Ravi. I am from Sitapur. Nice to meet you.", "hi": "Good morning! (सुप्रभात) My name is Ravi. (मेरा नाम रवि है।) I am from Sitapur. (मैं सीतापुर से हूँ।)"}},
+        {"id": "l2", "duration": 12, "video": "https://www.youtube.com/results?search_query=spoken+english+daily+use+sentences+hindi",
+         "title": {"en": "Asking for Help & Directions", "hi": "मदद और रास्ता पूछना"},
+         "notes": {"en": "Excuse me, where is the bus stand? Could you please help me? Thank you very much.", "hi": "Excuse me, where is the bus stand? (बस अड्डा कहाँ है?) Could you please help me? (क्या आप मेरी मदद करेंगे?)"}},
+        {"id": "l3", "duration": 14, "video": "https://www.youtube.com/results?search_query=job+interview+english+for+beginners+hindi",
+         "title": {"en": "Speaking at a Job Interview", "hi": "नौकरी के साक्षात्कार में बोलना"},
+         "notes": {"en": "Tell me about yourself → name, education, skills, why you want this job. Keep eye contact and smile.", "hi": "Tell me about yourself → नाम, शिक्षा, कौशल, यह नौकरी क्यों चाहिए। आँखों में देखकर मुस्कुराकर बात करें।"}}
+      ],
+      "quiz": [
+        {"q": {"en": "What do you say when meeting someone in the morning?", "hi": "सुबह किसी से मिलने पर क्या कहते हैं?"}, "options": [{"en": "Good night", "hi": "Good night"}, {"en": "Good morning", "hi": "Good morning"}, {"en": "Goodbye", "hi": "Goodbye"}, {"en": "Sorry", "hi": "Sorry"}], "answer": 1},
+        {"q": {"en": "'Thank you' means…", "hi": "'Thank you' का अर्थ है…"}, "options": [{"en": "Sorry", "hi": "माफ़ कीजिए"}, {"en": "Thanks", "hi": "धन्यवाद"}, {"en": "Hello", "hi": "नमस्ते"}, {"en": "Please", "hi": "कृपया"}], "answer": 1},
+        {"q": {"en": "A polite way to ask for help:", "hi": "मदद माँगने का विनम्र तरीका:"}, "options": [{"en": "Help me now!", "hi": "Help me now!"}, {"en": "Could you please help me?", "hi": "Could you please help me?"}, {"en": "Go away", "hi": "Go away"}, {"en": "No", "hi": "No"}], "answer": 1}
+      ]
+    },
+    {
+      "id": "c_com_2",
+      "category": "communication",
+      "level": "intermediate",
+      "mentorId": "m4",
+      "rating": 4.6,
+      "learners": 6700,
+      "skill": "communication",
+      "title": {"en": "Public Speaking & Confidence", "hi": "सार्वजनिक भाषण और आत्मविश्वास"},
+      "description": {"en": "Speak in Gram Sabha, SHG meetings and classrooms without fear.", "hi": "ग्राम सभा, स्वयं सहायता समूह की बैठकों और कक्षा में बिना डर के बोलें।"},
+      "lessons": [
+        {"id": "l1", "duration": 11, "video": "https://www.youtube.com/results?search_query=public+speaking+tips+hindi",
+         "title": {"en": "Overcoming Stage Fear", "hi": "मंच के डर पर काबू"},
+         "notes": {"en": "Breathe slowly, prepare 3 key points, practise in front of a mirror or family.", "hi": "धीरे-धीरे साँस लें, 3 मुख्य बातें तैयार करें, शीशे या परिवार के सामने अभ्यास करें।"}},
+        {"id": "l2", "duration": 13, "video": "https://www.youtube.com/results?search_query=how+to+structure+a+speech+hindi",
+         "title": {"en": "Structuring Your Talk", "hi": "अपनी बात को व्यवस्थित करना"},
+         "notes": {"en": "Opening → 3 main points → example/story → clear closing request.", "hi": "शुरुआत → 3 मुख्य बातें → उदाहरण/कहानी → स्पष्ट समापन अनुरोध।"}}
+      ],
+      "quiz": [
+        {"q": {"en": "A good speech should have…", "hi": "एक अच्छे भाषण में होना चाहिए…"}, "options": [{"en": "No structure", "hi": "कोई ढाँचा नहीं"}, {"en": "Clear key points", "hi": "स्पष्ट मुख्य बातें"}, {"en": "Only numbers", "hi": "केवल आँकड़े"}, {"en": "Very fast talk", "hi": "बहुत तेज़ बोलना"}], "answer": 1},
+        {"q": {"en": "To reduce stage fear you should…", "hi": "मंच का डर कम करने के लिए…"}, "options": [{"en": "Practise beforehand", "hi": "पहले से अभ्यास करें"}, {"en": "Avoid preparing", "hi": "तैयारी न करें"}, {"en": "Speak very fast", "hi": "बहुत तेज़ बोलें"}, {"en": "Look at the floor", "hi": "ज़मीन की ओर देखें"}], "answer": 0}
+      ]
+    },
+    {
+      "id": "c_dig_1",
+      "category": "digital",
+      "level": "beginner",
+      "mentorId": "m5",
+      "rating": 4.8,
+      "learners": 18900,
+      "skill": "digital",
+      "title": {"en": "Smartphone & Internet Basics", "hi": "स्मार्टफ़ोन और इंटरनेट की बुनियादी जानकारी"},
+      "description": {"en": "Use a smartphone, the internet, WhatsApp and government apps safely (PMGDISHA aligned).", "hi": "स्मार्टफ़ोन, इंटरनेट, व्हाट्सऐप और सरकारी ऐप्स का सुरक्षित उपयोग (PMGDISHA आधारित)।"},
+      "lessons": [
+        {"id": "l1", "duration": 10, "video": "https://www.youtube.com/results?search_query=smartphone+kaise+chalaye+basic+hindi",
+         "title": {"en": "Using a Smartphone", "hi": "स्मार्टफ़ोन चलाना"},
+         "notes": {"en": "Learn the home screen, calls, contacts, camera, settings and how to install apps from the Play Store.", "hi": "होम स्क्रीन, कॉल, संपर्क, कैमरा, सेटिंग्स और Play Store से ऐप इंस्टॉल करना सीखें।"}},
+        {"id": "l2", "duration": 12, "video": "https://www.youtube.com/results?search_query=internet+google+search+kaise+kare+hindi",
+         "title": {"en": "Searching the Internet", "hi": "इंटरनेट पर खोज करना"},
+         "notes": {"en": "Open a browser, type your question in Google, check results from trusted (.gov.in) sites.", "hi": "ब्राउज़र खोलें, Google में अपना सवाल लिखें, विश्वसनीय (.gov.in) साइट्स के परिणाम देखें।"}},
+        {"id": "l3", "duration": 15, "video": "https://www.youtube.com/results?search_query=upi+payment+safety+tips+hindi",
+         "title": {"en": "UPI Payments & Cyber Safety", "hi": "UPI भुगतान और साइबर सुरक्षा"},
+         "notes": {"en": "Never share your UPI PIN or OTP. You never need a PIN to RECEIVE money. Report fraud at 1930.", "hi": "अपना UPI PIN या OTP कभी साझा न करें। पैसे प्राप्त करने के लिए PIN की ज़रूरत नहीं होती। धोखाधड़ी की शिकायत 1930 पर करें।"}},
+        {"id": "l4", "duration": 11, "video": "https://www.youtube.com/results?search_query=digilocker+umang+app+kaise+use+kare",
+         "title": {"en": "DigiLocker & UMANG Apps", "hi": "डिजीलॉकर और उमंग ऐप"},
+         "notes": {"en": "DigiLocker stores your documents (Aadhaar, marksheets). UMANG gives 1000+ government services in one app.", "hi": "डिजीलॉकर में आपके दस्तावेज़ (आधार, मार्कशीट) सुरक्षित रहते हैं। उमंग में 1000+ सरकारी सेवाएँ एक ही ऐप में।"}}
+      ],
+      "quiz": [
+        {"q": {"en": "Do you need a UPI PIN to receive money?", "hi": "क्या पैसे प्राप्त करने के लिए UPI PIN चाहिए?"}, "options": [{"en": "Yes", "hi": "हाँ"}, {"en": "No", "hi": "नहीं"}], "answer": 1},
+        {"q": {"en": "Cyber fraud helpline number in India:", "hi": "भारत में साइबर धोखाधड़ी हेल्पलाइन नंबर:"}, "options": [{"en": "100", "hi": "100"}, {"en": "1930", "hi": "1930"}, {"en": "108", "hi": "108"}, {"en": "181", "hi": "181"}], "answer": 1},
+        {"q": {"en": "Which app stores your digital documents?", "hi": "कौन सा ऐप आपके डिजिटल दस्तावेज़ रखता है?"}, "options": [{"en": "DigiLocker", "hi": "डिजीलॉकर"}, {"en": "Calculator", "hi": "कैलकुलेटर"}, {"en": "Camera", "hi": "कैमरा"}, {"en": "Clock", "hi": "घड़ी"}], "answer": 0}
+      ]
+    },
+    {
+      "id": "c_voc_1",
+      "category": "vocational",
+      "level": "beginner",
+      "mentorId": "m6",
+      "rating": 4.7,
+      "learners": 11200,
+      "skill": "vocational",
+      "title": {"en": "Smart & Organic Farming", "hi": "स्मार्ट और जैविक खेती"},
+      "description": {"en": "Soil health card, organic compost, crop rotation and selling on e-NAM.", "hi": "मृदा स्वास्थ्य कार्ड, जैविक खाद, फसल चक्र और e-NAM पर बिक्री।"},
+      "lessons": [
+        {"id": "l1", "duration": 12, "video": "https://www.youtube.com/results?search_query=vermicompost+kaise+banaye+hindi",
+         "title": {"en": "Making Vermicompost", "hi": "वर्मीकम्पोस्ट बनाना"},
+         "notes": {"en": "Use a shaded pit, layer crop waste and cow dung, add earthworms, keep moist. Ready in 60–75 days.", "hi": "छायादार गड्ढे में फसल अवशेष और गोबर की परतें बिछाएँ, केंचुए डालें, नमी बनाए रखें। 60–75 दिनों में तैयार।"}},
+        {"id": "l2", "duration": 10, "video": "https://www.youtube.com/results?search_query=soil+health+card+scheme+hindi",
+         "title": {"en": "Soil Health Card", "hi": "मृदा स्वास्थ्य कार्ड"},
+         "notes": {"en": "Get your soil tested free; the card tells which nutrients and how much fertilizer your field needs.", "hi": "मिट्टी की मुफ़्त जाँच कराएँ; कार्ड बताता है कि खेत को कौन से पोषक तत्व और कितना उर्वरक चाहिए।"}},
+        {"id": "l3", "duration": 13, "video": "https://www.youtube.com/results?search_query=e-nam+online+mandi+registration+hindi",
+         "title": {"en": "Selling Crops on e-NAM", "hi": "e-NAM पर फसल बेचना"},
+         "notes": {"en": "e-NAM is an online national market. Register with Aadhaar & bank details to get better prices.", "hi": "e-NAM एक ऑनलाइन राष्ट्रीय मंडी है। बेहतर दाम के लिए आधार और बैंक विवरण से पंजीकरण करें।"}}
+      ],
+      "quiz": [
+        {"q": {"en": "Vermicompost is made using…", "hi": "वर्मीकम्पोस्ट किससे बनता है?"}, "options": [{"en": "Earthworms", "hi": "केंचुए"}, {"en": "Plastic", "hi": "प्लास्टिक"}, {"en": "Urea only", "hi": "केवल यूरिया"}, {"en": "Sand", "hi": "रेत"}], "answer": 0},
+        {"q": {"en": "e-NAM is a…", "hi": "e-NAM है…"}, "options": [{"en": "Seed brand", "hi": "बीज ब्रांड"}, {"en": "Online crop market", "hi": "ऑनलाइन फसल मंडी"}, {"en": "Tractor", "hi": "ट्रैक्टर"}, {"en": "Bank", "hi": "बैंक"}], "answer": 1}
+      ]
+    },
+    {
+      "id": "c_voc_2",
+      "category": "vocational",
+      "level": "beginner",
+      "mentorId": "m6",
+      "rating": 4.5,
+      "learners": 6100,
+      "skill": "vocational",
+      "title": {"en": "Tailoring & Small Business", "hi": "सिलाई और छोटा व्यवसाय"},
+      "description": {"en": "Basic stitching skills and how to start a home-based tailoring business.", "hi": "सिलाई के बुनियादी कौशल और घर से सिलाई व्यवसाय शुरू करना।"},
+      "lessons": [
+        {"id": "l1", "duration": 15, "video": "https://www.youtube.com/results?search_query=silai+machine+basic+for+beginners+hindi",
+         "title": {"en": "Sewing Machine Basics", "hi": "सिलाई मशीन की बुनियादी बातें"},
+         "notes": {"en": "Thread the machine, wind the bobbin, and practise straight stitches on paper first.", "hi": "मशीन में धागा डालें, बॉबिन भरें और पहले कागज़ पर सीधी सिलाई का अभ्यास करें।"}},
+        {"id": "l2", "duration": 12, "video": "https://www.youtube.com/results?search_query=ghar+se+silai+business+kaise+shuru+kare",
+         "title": {"en": "Pricing & Customers", "hi": "मूल्य निर्धारण और ग्राहक"},
+         "notes": {"en": "Price = cost of material + your time + small profit. Use WhatsApp to show designs to customers.", "hi": "कीमत = सामग्री की लागत + आपका समय + थोड़ा लाभ। ग्राहकों को डिज़ाइन दिखाने के लिए व्हाट्सऐप का उपयोग करें।"}}
+      ],
+      "quiz": [
+        {"q": {"en": "Price of a product should include…", "hi": "उत्पाद की कीमत में शामिल होना चाहिए…"}, "options": [{"en": "Only material", "hi": "केवल सामग्री"}, {"en": "Material + time + profit", "hi": "सामग्री + समय + लाभ"}, {"en": "Nothing", "hi": "कुछ नहीं"}, {"en": "Only profit", "hi": "केवल लाभ"}], "answer": 1}
+      ]
+    },
+    {
+      "id": "c_fin_1",
+      "category": "finance",
+      "level": "beginner",
+      "mentorId": "m7",
+      "rating": 4.8,
+      "learners": 9900,
+      "skill": "finance",
+      "title": {"en": "Banking, Savings & Loans", "hi": "बैंकिंग, बचत और ऋण"},
+      "description": {"en": "Open a Jan Dhan account, save regularly, understand loans and avoid moneylender debt traps.", "hi": "जन धन खाता खोलें, नियमित बचत करें, ऋण समझें और साहूकार के कर्ज़ जाल से बचें।"},
+      "lessons": [
+        {"id": "l1", "duration": 10, "video": "https://www.youtube.com/results?search_query=jan+dhan+account+kaise+khole+hindi",
+         "title": {"en": "Opening a Bank Account", "hi": "बैंक खाता खोलना"},
+         "notes": {"en": "PM Jan Dhan Yojana: zero-balance account, RuPay card, accident insurance. Needs Aadhaar.", "hi": "प्रधानमंत्री जन धन योजना: शून्य बैलेंस खाता, रुपे कार्ड, दुर्घटना बीमा। आधार ज़रूरी।"}},
+        {"id": "l2", "duration": 12, "video": "https://www.youtube.com/results?search_query=bachat+kaise+kare+budget+hindi",
+         "title": {"en": "Budgeting & Saving", "hi": "बजट और बचत"},
+         "notes": {"en": "Write down income and expenses. Save at least 10% every month in a bank or post office RD.", "hi": "आय और खर्च लिखें। हर महीने कम से कम 10% बैंक या डाकघर RD में बचाएँ।"}},
+        {"id": "l3", "duration": 14, "video": "https://www.youtube.com/results?search_query=loan+lene+se+pehle+kya+jane+hindi",
+         "title": {"en": "Understanding Loans", "hi": "ऋण को समझना"},
+         "notes": {"en": "Compare interest rates. Banks/SHGs/MUDRA are safer than moneylenders charging 3–10% per month.", "hi": "ब्याज दरों की तुलना करें। बैंक/स्वयं सहायता समूह/मुद्रा, 3–10% मासिक ब्याज लेने वाले साहूकारों से सुरक्षित हैं।"}}
+      ],
+      "quiz": [
+        {"q": {"en": "A Jan Dhan account can be opened with…", "hi": "जन धन खाता किसके साथ खोला जा सकता है?"}, "options": [{"en": "Zero balance", "hi": "शून्य बैलेंस"}, {"en": "₹10,000", "hi": "₹10,000"}, {"en": "₹5,000", "hi": "₹5,000"}, {"en": "Gold", "hi": "सोना"}], "answer": 0},
+        {"q": {"en": "Safest source of loan:", "hi": "ऋण का सबसे सुरक्षित स्रोत:"}, "options": [{"en": "Moneylender", "hi": "साहूकार"}, {"en": "Bank / SHG", "hi": "बैंक / स्वयं सहायता समूह"}, {"en": "Stranger online", "hi": "ऑनलाइन अजनबी"}, {"en": "Unknown app", "hi": "अनजान ऐप"}], "answer": 1}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "programs": [
+    {"id": "p1", "icon": "wifi", "url": "https://pmwani.gov.in",
+     "name": {"en": "PM-WANI Public Wi-Fi", "hi": "पीएम-वाणी सार्वजनिक वाई-फ़ाई"},
+     "desc": {"en": "Low-cost public Wi-Fi from local shops (PDOs). Plans start from ₹5/day.", "hi": "स्थानीय दुकानों (PDO) से कम कीमत का सार्वजनिक वाई-फ़ाई। प्लान ₹5/दिन से शुरू।"}},
+    {"id": "p2", "icon": "cell_tower", "url": "https://bbnl.nic.in",
+     "name": {"en": "BharatNet Village Broadband", "hi": "भारतनेट ग्राम ब्रॉडबैंड"},
+     "desc": {"en": "Optical-fibre internet at every Gram Panchayat; affordable FTTH home connections.", "hi": "हर ग्राम पंचायत तक ऑप्टिकल फ़ाइबर इंटरनेट; किफ़ायती FTTH घरेलू कनेक्शन।"}},
+    {"id": "p3", "icon": "storefront", "url": "https://csc.gov.in",
+     "name": {"en": "Common Service Centres (CSC)", "hi": "कॉमन सर्विस सेंटर (CSC)"},
+     "desc": {"en": "Village digital kiosks for internet, printing, Aadhaar, banking and government forms.", "hi": "इंटरनेट, प्रिंटिंग, आधार, बैंकिंग और सरकारी फ़ॉर्म के लिए गाँव के डिजिटल केंद्र।"}},
+    {"id": "p4", "icon": "tv", "url": "https://pmevidya.education.gov.in",
+     "name": {"en": "PM eVIDYA – DTH TV Classes", "hi": "पीएम ई-विद्या – DTH टीवी कक्षाएँ"},
+     "desc": {"en": "200 free 'One Class One Channel' TV channels – learn without internet on DD Free Dish.", "hi": "200 निःशुल्क 'एक कक्षा एक चैनल' टीवी चैनल – DD फ़्री डिश पर बिना इंटरनेट पढ़ाई।"}},
+    {"id": "p5", "icon": "radio", "url": "https://pmevidya.education.gov.in",
+     "name": {"en": "Community Radio & Podcasts", "hi": "सामुदायिक रेडियो और पॉडकास्ट"},
+     "desc": {"en": "Audio lessons via community radio stations and Shiksha Vani podcasts for areas without data.", "hi": "डेटा रहित क्षेत्रों के लिए सामुदायिक रेडियो और शिक्षा वाणी पॉडकास्ट से ऑडियो पाठ।"}}
+  ],
+  "hotspots": [
+    {"id": "h1", "distance": 0.4, "type": "wifi", "free": true,
+     "name": {"en": "Gram Panchayat Bhawan Wi-Fi", "hi": "ग्राम पंचायत भवन वाई-फ़ाई"},
+     "timing": {"en": "8 AM – 8 PM", "hi": "सुबह 8 – रात 8"}},
+    {"id": "h2", "distance": 1.2, "type": "csc", "free": false,
+     "name": {"en": "Sharma CSC & Digital Seva Kendra", "hi": "शर्मा CSC एवं डिजिटल सेवा केंद्र"},
+     "timing": {"en": "9 AM – 7 PM", "hi": "सुबह 9 – शाम 7"}},
+    {"id": "h3", "distance": 2.0, "type": "wifi", "free": true,
+     "name": {"en": "Government Inter College Smart Class", "hi": "राजकीय इंटर कॉलेज स्मार्ट क्लास"},
+     "timing": {"en": "After school: 3 PM – 6 PM", "hi": "स्कूल के बाद: दोपहर 3 – शाम 6"}},
+    {"id": "h4", "distance": 2.8, "type": "wifi", "free": false,
+     "name": {"en": "PM-WANI Hotspot – Gupta Kirana", "hi": "पीएम-वाणी हॉटस्पॉट – गुप्ता किराना"},
+     "timing": {"en": "7 AM – 10 PM", "hi": "सुबह 7 – रात 10"}},
+    {"id": "h5", "distance": 4.5, "type": "library", "free": true,
+     "name": {"en": "Block Digital Library", "hi": "ब्लॉक डिजिटल पुस्तकालय"},
+     "timing": {"en": "10 AM – 5 PM (Mon–Sat)", "hi": "सुबह 10 – शाम 5 (सोम–शनि)"}}
+  ],
+  "dataPacks": [
+    {"id": "d1", "data": "2 GB", "validity": {"en": "30 days", "hi": "30 दिन"}, "sponsor": {"en": "Sponsored by Gyan Setu CSR fund", "hi": "ज्ञान सेतु CSR फ़ंड द्वारा प्रायोजित"}},
+    {"id": "d2", "data": "5 GB", "validity": {"en": "30 days", "hi": "30 दिन"}, "sponsor": {"en": "For BPL / Antyodaya card holders", "hi": "BPL / अंत्योदय कार्ड धारकों के लिए"}},
+    {"id": "d3", "data": "10 GB", "validity": {"en": "60 days", "hi": "60 दिन"}, "sponsor": {"en": "For students preparing for board exams", "hi": "बोर्ड परीक्षा की तैयारी कर रहे विद्यार्थियों के लिए"}}
+  ]
+}

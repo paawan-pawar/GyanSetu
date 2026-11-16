@@ -1,0 +1,39 @@
+{
+  "phrases": [
+    {"situation": {"en": "Greeting", "hi": "अभिवादन"}, "english": "Good morning! How are you?", "hindi": "सुप्रभात! आप कैसे हैं?"},
+    {"situation": {"en": "Introduction", "hi": "परिचय"}, "english": "My name is Asha. I live in Rampur village.", "hindi": "मेरा नाम आशा है। मैं रामपुर गाँव में रहती हूँ।"},
+    {"situation": {"en": "At the bank", "hi": "बैंक में"}, "english": "I want to open a savings account.", "hindi": "मैं बचत खाता खोलना चाहता/चाहती हूँ।"},
+    {"situation": {"en": "At the hospital", "hi": "अस्पताल में"}, "english": "I have had a fever since yesterday.", "hindi": "मुझे कल से बुखार है।"},
+    {"situation": {"en": "Asking directions", "hi": "रास्ता पूछना"}, "english": "Excuse me, how do I reach the bus stand?", "hindi": "माफ़ कीजिए, बस अड्डे तक कैसे पहुँचूँ?"},
+    {"situation": {"en": "Job interview", "hi": "नौकरी साक्षात्कार"}, "english": "I am hardworking and eager to learn.", "hindi": "मैं मेहनती हूँ और सीखने के लिए उत्सुक हूँ।"},
+    {"situation": {"en": "Phone call", "hi": "फ़ोन कॉल"}, "english": "Could you please speak a little slowly?", "hindi": "क्या आप थोड़ा धीरे बोल सकते हैं?"},
+    {"situation": {"en": "At the market", "hi": "बाज़ार में"}, "english": "How much does this cost?", "hindi": "इसकी कीमत कितनी है?"},
+    {"situation": {"en": "Classroom", "hi": "कक्षा में"}, "english": "May I ask a question, please?", "hindi": "क्या मैं एक सवाल पूछ सकता/सकती हूँ?"},
+    {"situation": {"en": "Thanking", "hi": "धन्यवाद देना"}, "english": "Thank you so much for your help.", "hindi": "आपकी मदद के लिए बहुत-बहुत धन्यवाद।"}
+  ],
+  "words": [
+    {"word": "Opportunity", "meaning": "अवसर", "example": "This job is a great opportunity."},
+    {"word": "Confident", "meaning": "आत्मविश्वासी", "example": "She is confident when she speaks."},
+    {"word": "Knowledge", "meaning": "ज्ञान", "example": "Knowledge is power."},
+    {"word": "Community", "meaning": "समुदाय", "example": "Our community built a new library."},
+    {"word": "Improve", "meaning": "सुधारना", "example": "I practise daily to improve my English."},
+    {"word": "Savings", "meaning": "बचत", "example": "Keep your savings in a bank."},
+    {"word": "Harvest", "meaning": "फ़सल कटाई", "example": "The harvest was good this year."}
+  ],
+  "digitalChecklist": [
+    {"id": "dc1", "text": {"en": "Make and receive a phone call", "hi": "फ़ोन कॉल करना और उठाना"}},
+    {"id": "dc2", "text": {"en": "Save a contact", "hi": "संपर्क सेव करना"}},
+    {"id": "dc3", "text": {"en": "Send a WhatsApp voice message", "hi": "व्हाट्सऐप वॉइस संदेश भेजना"}},
+    {"id": "dc4", "text": {"en": "Connect to Wi-Fi", "hi": "वाई-फ़ाई से जुड़ना"}},
+    {"id": "dc5", "text": {"en": "Search on Google / YouTube", "hi": "Google / YouTube पर खोजना"}},
+    {"id": "dc6", "text": {"en": "Make a UPI payment safely", "hi": "सुरक्षित रूप से UPI भुगतान करना"}},
+    {"id": "dc7", "text": {"en": "Download a document from DigiLocker", "hi": "डिजीलॉकर से दस्तावेज़ डाउनलोड करना"}},
+    {"id": "dc8", "text": {"en": "Identify a fake / fraud message", "hi": "नकली / धोखाधड़ी संदेश पहचानना"}}
+  ],
+  "safetyTips": [
+    {"en": "Never share OTP, PIN or passwords with anyone – not even bank staff.", "hi": "OTP, PIN या पासवर्ड किसी के साथ साझा न करें – बैंक कर्मचारी के साथ भी नहीं।"},
+    {"en": "Do not click on unknown links promising lottery or prizes.", "hi": "लॉटरी या इनाम का वादा करने वाले अनजान लिंक पर क्लिक न करें।"},
+    {"en": "Download apps only from the Google Play Store.", "hi": "ऐप्स केवल Google Play Store से डाउनलोड करें।"},
+    {"en": "Report cyber fraud immediately at 1930 or cybercrime.gov.in.", "hi": "साइबर धोखाधड़ी की तुरंत 1930 या cybercrime.gov.in पर शिकायत करें।"}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {"id": "r1", "status": "ongoing", "participants": 342, "progress": 0.65,
+     "title": {"en": "Mother-tongue vs Hindi Instruction Study", "hi": "मातृभाषा बनाम हिंदी शिक्षण अध्ययन"},
+     "lead": {"en": "District Institute of Education & Training (DIET)", "hi": "ज़िला शिक्षा एवं प्रशिक्षण संस्थान (DIET)"},
+     "summary": {"en": "Measuring how early-grade reading improves when children first learn in Awadhi/Bhojpuri.", "hi": "यह मापना कि बच्चे पहले अवधी/भोजपुरी में सीखें तो प्रारंभिक कक्षाओं का पठन कैसे सुधरता है।"}},
+    {"id": "r2", "status": "ongoing", "participants": 128, "progress": 0.40,
+     "title": {"en": "Low-cost Solar Study Lamp", "hi": "कम लागत वाला सोलर अध्ययन लैंप"},
+     "lead": {"en": "IIT student innovation cell + village youth", "hi": "IIT छात्र नवाचार प्रकोष्ठ + गाँव के युवा"},
+     "summary": {"en": "Designing a ₹300 solar lamp so children can study after sunset in homes without power.", "hi": "₹300 का सोलर लैंप डिज़ाइन करना ताकि बिना बिजली वाले घरों में बच्चे सूर्यास्त के बाद पढ़ सकें।"}},
+    {"id": "r3", "status": "completed", "participants": 560, "progress": 1.0,
+     "title": {"en": "Offline Learning on Feature Phones", "hi": "फ़ीचर फ़ोन पर ऑफ़लाइन शिक्षा"},
+     "lead": {"en": "State Council of Educational Research", "hi": "राज्य शैक्षिक अनुसंधान परिषद"},
+     "summary": {"en": "IVR-based maths lessons improved test scores by 18% in 6 months.", "hi": "IVR आधारित गणित पाठों से 6 माह में परीक्षा अंकों में 18% सुधार हुआ।"}},
+    {"id": "r4", "status": "open", "participants": 45, "progress": 0.1,
+     "title": {"en": "Water Quality Testing by Students", "hi": "विद्यार्थियों द्वारा जल गुणवत्ता परीक्षण"},
+     "lead": {"en": "Jal Jeevan Mission + local schools", "hi": "जल जीवन मिशन + स्थानीय विद्यालय"},
+     "summary": {"en": "Students use field test kits to map safe drinking water sources in their villages.", "hi": "विद्यार्थी फ़ील्ड टेस्ट किट से अपने गाँव में सुरक्षित पेयजल स्रोतों का नक्शा बनाते हैं।"}}
+  ],
+  "surveys": [
+    {"id": "sv1", "minutes": 3,
+     "title": {"en": "How do you access learning content?", "hi": "आप पढ़ाई की सामग्री कैसे प्राप्त करते हैं?"},
+     "question": {"en": "What is your main way of learning online?", "hi": "ऑनलाइन सीखने का आपका मुख्य तरीका क्या है?"},
+     "options": [{"en": "Own smartphone", "hi": "अपना स्मार्टफ़ोन"}, {"en": "Shared family phone", "hi": "परिवार का साझा फ़ोन"}, {"en": "CSC / School computer", "hi": "CSC / स्कूल कंप्यूटर"}, {"en": "No access", "hi": "कोई सुविधा नहीं"}]},
+    {"id": "sv2", "minutes": 2,
+     "title": {"en": "Biggest barrier to education", "hi": "शिक्षा में सबसे बड़ी बाधा"},
+     "question": {"en": "What stops you or your children from learning more?", "hi": "आपको या आपके बच्चों को अधिक सीखने से क्या रोकता है?"},
+     "options": [{"en": "Cost / money", "hi": "खर्च / पैसा"}, {"en": "No internet", "hi": "इंटरनेट नहीं"}, {"en": "Distance to school", "hi": "स्कूल की दूरी"}, {"en": "Household work", "hi": "घरेलू काम"}]}
+  ]
+}
