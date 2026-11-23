@@ -53,7 +53,7 @@ const Map<String, Map<String, String>> kStrings = {
   'nav_home': {'en': 'Home', 'hi': 'होम'},
   'nav_learn': {'en': 'Learn', 'hi': 'सीखें'},
   'nav_progress': {'en': 'Progress', 'hi': 'प्रगति'},
-  'nav_opportunities': {'en': 'Opportunities', 'hi': 'अवसर'},
+  'nav_opportunities': {'en': 'Services', 'hi': 'सेवाएँ'}, // short so it fits the bottom bar on small phones
   'nav_profile': {'en': 'Profile', 'hi': 'प्रोफ़ाइल'},
 
   // Home
@@ -211,6 +211,7 @@ const Map<String, Map<String, String>> kStrings = {
   'jobs': {'en': 'Jobs', 'hi': 'नौकरियाँ'},
   'trainings': {'en': 'Trainings', 'hi': 'प्रशिक्षण'},
   'days_ago': {'en': 'days ago', 'hi': 'दिन पहले'},
+  'day_ago': {'en': 'day ago', 'hi': 'दिन पहले'},
   'requirements': {'en': 'Requirements', 'hi': 'आवश्यकताएँ'},
   'apply_ok': {'en': 'Application sent! Track it in your profile.', 'hi': 'आवेदन भेजा गया! इसे प्रोफ़ाइल में देखें।'},
   'resume_builder': {'en': 'Build my simple resume', 'hi': 'मेरा सरल बायोडाटा बनाएँ'},

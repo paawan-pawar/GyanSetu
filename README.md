@@ -40,6 +40,10 @@ lib/
     opportunities, profile
 ```
 
+## Tests and CI
+- `flutter test` runs 23 automated tests (`test/`: state, datasets, logic, localization, app flow).
+- `.github/workflows/flutter_ci.yml` runs analyze, test and the release APK build on every push and pull request.
+
 ## Run
 ```bash
 flutter pub get

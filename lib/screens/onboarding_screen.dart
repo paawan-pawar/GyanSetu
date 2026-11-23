@@ -68,11 +68,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               ),
             ),
             Expanded(
-              child: PageView(
-                controller: _page,
-                onPageChanged: (i) => setState(() => _index = i),
-                children: pages,
-              ),
+              child: PageView(controller: _page, onPageChanged: (i) => setState(() => _index = i), children: pages),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -91,10 +87,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               padding: const EdgeInsets.all(20),
               child: SizedBox(
                 width: double.infinity,
-                child: FilledButton(
-                  onPressed: _next,
-                  child: Text(_index == 4 ? context.tr('get_started') : context.tr('continue')),
-                ),
+                child: FilledButton(onPressed: _next, child: Text(_index == 4 ? context.tr('get_started') : context.tr('continue'))),
               ),
             ),
           ],
@@ -109,9 +102,15 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       children: [
         Text(context.tr('tell_about_you'), style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w800)),
         const SizedBox(height: 20),
-        TextField(controller: _name, decoration: InputDecoration(labelText: context.tr('your_name'), prefixIcon: const Icon(Icons.person_rounded))),
+        TextField(
+          controller: _name,
+          decoration: InputDecoration(labelText: context.tr('your_name'), prefixIcon: const Icon(Icons.person_rounded)),
+        ),
         const SizedBox(height: 14),
-        TextField(controller: _village, decoration: InputDecoration(labelText: context.tr('your_village'), prefixIcon: const Icon(Icons.location_on_rounded))),
+        TextField(
+          controller: _village,
+          decoration: InputDecoration(labelText: context.tr('your_village'), prefixIcon: const Icon(Icons.location_on_rounded)),
+        ),
         const SizedBox(height: 20),
         Text(context.tr('i_am_a'), style: const TextStyle(fontWeight: FontWeight.w700)),
         const SizedBox(height: 10),
@@ -142,7 +141,10 @@ class _LanguagePage extends StatelessWidget {
         child: ListTile(
           contentPadding: const EdgeInsets.symmetric(horizontal: 18, vertical: 10),
           onTap: () => s.setLang(code),
-          leading: CircleAvatar(backgroundColor: cs.primaryContainer, child: Text(code == 'en' ? 'A' : 'अ', style: const TextStyle(fontWeight: FontWeight.w800))),
+          leading: CircleAvatar(
+            backgroundColor: cs.primaryContainer,
+            child: Text(code == 'en' ? 'A' : 'अ', style: const TextStyle(fontWeight: FontWeight.w800)),
+          ),
           title: Text(label, style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 18)),
           subtitle: Text(sub),
           trailing: Icon(sel ? Icons.check_circle_rounded : Icons.circle_outlined, color: sel ? cs.primary : cs.outline),
@@ -150,23 +152,33 @@ class _LanguagePage extends StatelessWidget {
       );
     }
 
-    return Padding(
-      padding: const EdgeInsets.all(24),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          const AppLogo(size: 128),
-          const SizedBox(height: 14),
-          Text(context.tr('app_name'), style: const TextStyle(fontSize: 28, fontWeight: FontWeight.w900, color: AppColors.primary)),
-          const SizedBox(height: 10),
-          Text(context.tr('tagline'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w800)),
-          const SizedBox(height: 8),
-          Text(context.tr('choose_language'), style: TextStyle(color: Theme.of(context).colorScheme.outline)),
-          const SizedBox(height: 26),
-          option('en', 'English', 'Continue in English'),
-          const SizedBox(height: 12),
-          option('hi', 'हिंदी', 'हिंदी में जारी रखें'),
-        ],
+    // Scrollable so it never overflows on short screens or in landscape.
+    return Center(
+      child: SingleChildScrollView(
+        padding: const EdgeInsets.all(24),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const AppLogo(size: 128),
+            const SizedBox(height: 14),
+            Text(
+              context.tr('app_name'),
+              style: const TextStyle(fontSize: 28, fontWeight: FontWeight.w900, color: AppColors.primary),
+            ),
+            const SizedBox(height: 10),
+            Text(
+              context.tr('tagline'),
+              textAlign: TextAlign.center,
+              style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w800),
+            ),
+            const SizedBox(height: 8),
+            Text(context.tr('choose_language'), style: TextStyle(color: Theme.of(context).colorScheme.outline)),
+            const SizedBox(height: 26),
+            option('en', 'English', 'Continue in English'),
+            const SizedBox(height: 12),
+            option('hi', 'हिंदी', 'हिंदी में जारी रखें'),
+          ],
+        ),
       ),
     );
   }
@@ -181,22 +193,32 @@ class _InfoPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(32),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Container(
-            width: 190,
-            height: 190,
-            decoration: BoxDecoration(color: color.withValues(alpha: 0.12), shape: BoxShape.circle),
-            child: Icon(icon, size: 96, color: color),
-          ),
-          const SizedBox(height: 36),
-          Text(title, textAlign: TextAlign.center, style: const TextStyle(fontSize: 26, fontWeight: FontWeight.w800)),
-          const SizedBox(height: 12),
-          Text(desc, textAlign: TextAlign.center, style: TextStyle(fontSize: 15.5, height: 1.5, color: Theme.of(context).colorScheme.onSurfaceVariant)),
-        ],
+    return Center(
+      child: SingleChildScrollView(
+        padding: const EdgeInsets.all(32),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Container(
+              width: 190,
+              height: 190,
+              decoration: BoxDecoration(color: color.withValues(alpha: 0.12), shape: BoxShape.circle),
+              child: Icon(icon, size: 96, color: color),
+            ),
+            const SizedBox(height: 36),
+            Text(
+              title,
+              textAlign: TextAlign.center,
+              style: const TextStyle(fontSize: 26, fontWeight: FontWeight.w800),
+            ),
+            const SizedBox(height: 12),
+            Text(
+              desc,
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 15.5, height: 1.5, color: Theme.of(context).colorScheme.onSurfaceVariant),
+            ),
+          ],
+        ),
       ),
     );
   }

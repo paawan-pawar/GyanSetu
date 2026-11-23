@@ -28,7 +28,7 @@ class DigitalLiteracyScreen extends StatelessWidget {
             subtitle: context.tr('digital_sub'),
             icon: Icons.devices_rounded,
             colors: const [Color(0xFF00695C), Color(0xFF26A69A)],
-            trailing: Pill('$doneCount/${checklist.length} ✓', color: Colors.white),
+            trailing: Pill('$doneCount/${checklist.length}', color: Colors.white, icon: Icons.check_circle_rounded),
           ),
           const SizedBox(height: 12),
           Card(

@@ -101,7 +101,7 @@ class JobCard extends StatelessWidget {
               children: [
                 Pill(context.tx(job['location']), color: const Color(0xFF1E88E5), icon: Icons.location_on_rounded),
                 Pill(job['salary'], color: AppColors.accent, icon: Icons.payments_rounded),
-                Pill('${job['posted']} ${context.tr('days_ago')}', color: cs.outline, icon: Icons.schedule_rounded),
+                Pill('${job['posted']} ${context.tr(job['posted'] == 1 ? 'day_ago' : 'days_ago')}', color: cs.outline, icon: Icons.schedule_rounded),
               ],
             ),
             const SizedBox(height: 10),

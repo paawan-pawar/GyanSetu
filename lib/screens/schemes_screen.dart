@@ -21,6 +21,28 @@ const kSchemeIcons = {
   'incentive': Icons.workspace_premium_rounded,
 };
 
+/// Monthly EMI for a loan: P·r·(1+r)^n / ((1+r)^n − 1), r = monthly rate.
+double monthlyEmi(double principal, double yearlyRatePercent, int years) {
+  final r = yearlyRatePercent / 12 / 100;
+  final n = years * 12;
+  if (r == 0) return principal / n;
+  return principal * r * pow(1 + r, n) / (pow(1 + r, n) - 1);
+}
+
+/// Scheme ids that may suit a learner, used by the quick eligibility check.
+Set<String> matchSchemes({required double income, required bool student, required bool farmer, required bool business}) {
+  final m = <String>{'s9', 's8'}; // Jan Dhan & PMKVY are open to nearly everyone
+  if (student) {
+    m.add('s1');
+    if (income <= 250000) m.add('s2');
+    if (income <= 800000) m.add('s3');
+    m.add('s7');
+  }
+  if (farmer) m.add('s6');
+  if (business) m.addAll(['s4', 's5', 's10']);
+  return m;
+}
+
 class SchemesScreen extends StatefulWidget {
   const SchemesScreen({super.key});
 
@@ -202,18 +224,7 @@ class _EligibilitySheetState extends State<_EligibilitySheet> {
   bool _farmer = false;
   bool _business = false;
 
-  Set<String> _compute() {
-    final m = <String>{'s9', 's8'}; // Jan Dhan & PMKVY are open to nearly everyone
-    if (_student) {
-      m.add('s1');
-      if (_income <= 250000) m.add('s2');
-      if (_income <= 800000) m.add('s3');
-      m.add('s7');
-    }
-    if (_farmer) m.add('s6');
-    if (_business) m.addAll(['s4', 's5', 's10']);
-    return m;
-  }
+  Set<String> _compute() => matchSchemes(income: _income, student: _student, farmer: _farmer, business: _business);
 
   @override
   Widget build(BuildContext context) {
@@ -255,9 +266,8 @@ class _EmiSheetState extends State<_EmiSheet> {
 
   @override
   Widget build(BuildContext context) {
-    final r = _rate / 12 / 100;
     final n = (_years * 12).round();
-    final emi = r == 0 ? _amount / n : _amount * r * pow(1 + r, n) / (pow(1 + r, n) - 1);
+    final emi = monthlyEmi(_amount, _rate, _years.round());
     final interest = emi * n - _amount;
     final cs = Theme.of(context).colorScheme;
     String rupee(num v) => '₹${v.round().toString().replaceAllMapped(RegExp(r'(\d)(?=(\d\d)+\d$)'), (m) => '${m[1]},')}';
